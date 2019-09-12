@@ -14,7 +14,7 @@ matrix:
     - env: DISTRIB="conda" PYTHON_VERSION="3.6" COVERAGE="false"
 install:
   - source tests/travis_install.sh
-  - conda env create -f environment.lock.yaml --force
+  - conda env create -f environment.yaml
 
   # - pip install -r requirements.txt
   # ^  DEPRECATION WARNING:
