@@ -14,7 +14,9 @@ matrix:
     - env: DISTRIB="conda" PYTHON_VERSION="3.6" COVERAGE="false"
 install:
   - source tests/travis_install.sh
-  - pip install -r requirements.txt
+  - conda env create -f environment.lock.yaml --force
+
+  # - pip install -r requirements.txt
   # ^  DEPRECATION WARNING:
   # The automatic creation of a `requirements.txt` file is deprecated.
   # See `Dependency Management` in the docs for other options.
