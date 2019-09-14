@@ -14,7 +14,7 @@ matrix:
     - env: DISTRIB="conda" PYTHON_VERSION="3.6" COVERAGE="false"
 install:
   - source tests/travis_install.sh
-  - conda env update --file environment.yml
+  - conda env update --file environment.yaml
   # - conda env create -n test -f environment.yaml
   # - conda activate test
 
