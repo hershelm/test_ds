@@ -1,5 +1,9 @@
 # test_ds
 
+[![Build Status](https://travis-ci.com/hershelm/test_ds.svg?branch=master)](https://travis-ci.com/hershelm/test_ds)
+
+[![Coverage Status](https://coveralls.io/repos/github/hershelm/test_ds/badge.svg?branch=master)](https://coveralls.io/github/hershelm/test_ds?branch=master)
+
 Add a short description here!
 
 ## Description
